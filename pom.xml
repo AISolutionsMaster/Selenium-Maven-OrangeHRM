@@ -171,7 +171,8 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.15.2</version> <!-- Thay bằng phiên bản mới nhất hoặc phù hợp -->
                 <configuration>
-                    <reportVersion>2.19.0</reportVersion>
+                  <reportVersion>2.19.0</reportVersion>
+                  <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>
                 </configuration>
             </plugin>
         </plugins>
